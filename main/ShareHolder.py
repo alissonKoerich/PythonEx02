@@ -27,15 +27,7 @@ class ShareHolder(Person):
     def share(self) -> float:
         return self._share
 
-    @share.setter
-    def share(self, value: float):
-        self._share = value
-
 
     @property
     def stock_value(self) -> float:
         return self.stock_value
-
-    @stock_value.setter
-    def stock_value(self, value: float):
-        self._stock_value = value
